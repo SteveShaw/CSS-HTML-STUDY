@@ -1,0 +1,12 @@
+h2, h3 {
+    background-color: blue;
+    color: bisque;
+}
+
+.item {
+    color: red;
+}
+
+input[type="email"] {
+    background-color: orange;
+}
