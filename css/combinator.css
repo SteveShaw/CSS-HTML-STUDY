@@ -1,0 +1,18 @@
+section p{
+    background-color: aqua;
+}
+
+/* select all immeidate child */
+section > p {
+    background-color: green;
+}
+
+/* sibling selection --> the sibling item */
+h1 +p {
+    background-color: yellow;
+}
+
+/* general sibling  */
+h1 ~ p{
+    background-color: orange;
+}
